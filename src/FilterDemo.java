@@ -21,6 +21,8 @@ public class FilterDemo {
 
         //numberList.stream().filter(n->n%2==0).forEach(n-> System.out.println(n));
 
+        //OR
+
         numberList.stream().filter(n->n%2==1).forEach(System.out::println);
 
     }
